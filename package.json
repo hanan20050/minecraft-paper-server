@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "loclx": "^24.4.1",
+    "mineflayer": "^4.25.0"
+  }
+}

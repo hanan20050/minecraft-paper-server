@@ -1,0 +1,22 @@
+# Minecraft Server Binaries & Libraries
+*.jar
+jdk-25.0.2.jdk/
+libraries/
+cache/
+node_modules/
+playit-agent/
+playit-cli
+playitd
+ngrok
+loclx
+bore
+
+# Logs and runtime files
+*.log
+logs/
+usercache.json
+duckdns-update.sh
+
+# World & Plugin dynamic data (Optional: exclude worlds/plugins if they contain large maps/saves)
+# world/
+# plugins/
