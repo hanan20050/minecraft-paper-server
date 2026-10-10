@@ -1,21 +1,8 @@
-# Minecraft Paper Server
+# minecraft-paper-server
 
-This repository contains the configuration, plugins, and startup scripts for a Minecraft server running on the Paper platform.
+Dedicated Paper Minecraft server environment pre-configured with startup optimizations, automated memory allocation, and remote connection tunnels.
 
 ## Features
-
-- **Paper Platform**: High-performance Minecraft server implementation.
-- **Port Forwarding Integrations**: Setup for multiple tunneling services including:
-  - Playit.gg (`start-playit.sh`)
-  - Ngrok (`start-ngrok.sh`)
-  - Bore (`start-bore.sh`)
-- **Automated Startup**: Use `start.sh` or `start-all.sh` to run the server.
-
-## Getting Started
-
-1. Ensure JDK 25 is installed.
-2. Configure `server.properties` and other configuration files as needed.
-3. Run the startup script for your preferred integration:
-   ```bash
-   ./start-playit.sh
-   ```
+- **Paper Optimization**: Highly tuned `paper.yml` and server properties for maximum tick rate (20 TPS).
+- **Zero-Port-Forwarding Tunnels**: Pre-configured startup scripts for Ngrok, Bore, and Playit.gg.
+- **Plugin Management**: Central directory structure for Spigot/Paper gameplay plugins and economy hooks.\n
